@@ -1,0 +1,49 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "Vanilla Javascript Template 2020",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js",
+    "startdev": "webpack-dev-server --config webpack.dev.js --open",
+    "startprod": "webpack-dev-server --config webpack.prod.js --open"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "css",
+    "scss",
+    "html",
+    "front end",
+    "programmer",
+    "developer",
+    "angular",
+    "ionic",
+    "development"
+  ],
+  "author": "Matthew Coatney",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.10.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.3",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.1.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^4.2.1",
+    "style-loader": "^1.2.1"
+  }
+}
